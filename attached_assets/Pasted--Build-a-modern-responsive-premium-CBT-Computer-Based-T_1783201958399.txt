@@ -1,0 +1,438 @@
+
+
+Build a modern, responsive, premium CBT (Computer-Based Test) web application for GST113 exam practice. The design should feel as polished as a professional examination platform like JAMB CBT, while maintaining a clean, friendly, and distraction-free interface.
+
+Design Style
+
+Minimalist and modern UI
+
+Smooth animations and transitions
+
+Mobile-first responsive design
+
+Rounded cards with soft shadows
+
+Premium typography
+
+Plenty of white space
+
+Fast loading
+
+Accessibility-friendly
+
+Light mode with optional Dark Mode toggle
+
+
+Color Palette
+
+Primary: #0F766E (Emerald Green)
+
+Secondary: #2563EB (Blue)
+
+Accent: #F59E0B (Gold)
+
+Background: #F8FAFC
+
+Success: #22C55E
+
+Error: #EF4444
+
+Text: #1E293B
+
+Use subtle gradients and glassmorphism only where appropriate.
+
+
+---
+
+PDF Import (Important)
+
+I have attached a PDF containing my complete GST113 question bank.
+
+Automatically:
+
+Extract every multiple-choice question from the PDF.
+
+Extract all four options (A–D).
+
+Extract the correct answer for every question.
+
+Build a structured question database from the extracted content.
+
+Ensure no questions are skipped or duplicated.
+
+Preserve the numbering where possible.
+
+Validate that every question has exactly four options and one correct answer.
+
+Automatically load all extracted questions into the CBT system.
+
+If any question cannot be parsed correctly, list it separately instead of skipping it.
+
+
+Do not require me to manually upload, import, or edit questions after generation.
+
+
+---
+
+Landing Page
+
+Create a beautiful landing page containing:
+
+Hero section with title: "GST113 CBT Practice Platform"
+
+Subtitle: "Practice with real CBT experience and prepare confidently for your GST113 examination."
+
+
+Buttons:
+
+Start Practice
+
+View Instructions
+
+
+Include feature cards:
+
+CBT Experience
+
+Instant Scoring
+
+Review Incorrect Answers
+
+Performance Analytics
+
+Mobile Friendly
+
+
+Add subtle illustrations/icons.
+
+
+---
+
+Dashboard
+
+Dashboard should display:
+
+Welcome to GST113 CBT Practice
+
+Cards showing:
+
+Total Questions
+
+Total Practice Tests
+
+Best Score
+
+Average Score
+
+Questions Practiced
+
+Recent Attempts
+
+
+Quick Actions:
+
+Start Practice
+
+Continue Previous Session
+
+Review Mistakes
+
+View Statistics
+
+
+
+---
+
+CBT Exam Interface
+
+The examination page should resemble a real JAMB CBT exam.
+
+Display:
+
+Question Number
+
+Progress Bar
+
+Question
+
+Four options
+
+Previous Button
+
+Next Button
+
+Flag for Review
+
+Clear Selection
+
+
+Question Palette showing all question numbers with colors:
+
+Answered
+
+Unanswered
+
+Current
+
+Flagged
+
+
+Include:
+
+Fullscreen Mode
+
+Auto-save answers
+
+Smooth transitions
+
+Keyboard shortcuts:
+
+A, B, C, D to select answers
+
+Arrow keys for navigation
+
+
+Timer displayed at the top-right.
+
+
+
+---
+
+Timer
+
+Allow:
+
+30 mins
+
+45 mins
+
+60 mins
+
+Custom time
+
+
+Warn users when:
+
+10 minutes remain
+
+5 minutes remain
+
+1 minute remains
+
+
+Auto-submit when time expires.
+
+
+---
+
+Submit Screen
+
+Before submission ask:
+
+"Are you sure you want to submit your examination?"
+
+Display:
+
+Answered Questions
+
+Unanswered Questions
+
+Flagged Questions
+
+Time Remaining
+
+
+
+---
+
+Results Page
+
+Display:
+
+Overall Score
+
+Percentage
+
+Grade
+
+Time Used
+
+Correct Answers
+
+Wrong Answers
+
+Skipped Questions
+
+
+Include:
+
+Circular progress indicator
+
+Performance by topic
+
+Accuracy percentage
+
+Weakest topics
+
+Strongest topics
+
+Motivational message depending on score
+
+
+
+---
+
+Review Mode
+
+Allow students to review every question.
+
+Show:
+
+Selected answer
+
+Correct answer
+
+Explanation (if available)
+
+
+Include filters:
+
+Correct
+
+Wrong
+
+Skipped
+
+Flagged
+
+
+
+---
+
+Statistics
+
+Create analytics showing:
+
+Practice history
+
+Score trend
+
+Average performance
+
+Topic mastery
+
+Total study time
+
+Best score
+
+Recent scores
+
+
+Use beautiful charts.
+
+
+---
+
+User Experience
+
+Include:
+
+Loading skeletons
+
+Smooth page transitions
+
+Micro-interactions
+
+Animated buttons
+
+Hover effects
+
+Toast notifications
+
+Auto-save
+
+Responsive layout
+
+Beautiful empty states
+
+Error handling
+
+Offline support if possible
+
+Fast navigation
+
+No page reloads
+
+
+
+---
+
+Technical Requirements
+
+Use:
+
+React
+
+Next.js
+
+Tailwind CSS
+
+TypeScript
+
+Framer Motion animations
+
+Responsive Grid Layout
+
+Component-based architecture
+
+Clean, scalable code
+
+Optimized performance
+
+SEO-ready
+
+Dark Mode support
+
+
+
+---
+
+Extra Features
+
+Practice by topic
+
+Randomize questions
+
+Randomize answer options while preserving the correct answer
+
+Bookmark questions
+
+Retake exams
+
+Pause and Resume
+
+Search questions
+
+Review bookmarked questions
+
+Daily practice streak
+
+Achievement badges
+
+Confetti animation for high scores
+
+Sound effects (optional)
+
+Print or download results as PDF
+
+Export score history
+
+
+
+---
+
+Final Goal
+
+The finished application should look and feel like a premium educational platform with world-class UI/UX, smooth animations, intuitive navigation, and a realistic CBT experience. It should be visually appealing, highly responsive on phones, tablets, and desktops.
+
+Use the attached PDF as the only source of questions. Automatically extract and integrate all questions into the application during development so the website is fully functional immediately after generation without any manual question 

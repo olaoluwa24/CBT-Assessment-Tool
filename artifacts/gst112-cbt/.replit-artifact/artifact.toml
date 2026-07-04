@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "GST112 CBT Practice Platform"
+version = "1.0.0"
+id = "artifacts/gst112-cbt"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25532
+
+[services.development]
+run = "pnpm --filter @workspace/gst112-cbt run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/gst112-cbt", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/gst112-cbt/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25532"
+BASE_PATH = "/"
