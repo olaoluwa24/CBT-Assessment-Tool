@@ -1,7 +1,7 @@
 import express, { type Express, Request, Response } from "express";
 import cors from "cors";
 import * as pinoHttp from "pino-http"; // Fixes the "not callable" error
-import router from "./routes";
+import routes from './routes/index.js';
 import { logger } from "./lib/logger";
 
 const app: Express = express();
