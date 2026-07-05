@@ -1,10 +1,9 @@
-import { Router, type IRouter, Request, Response } from "express"; // Added Request, Response
+import { Router, type IRouter, Request, Response } from "express"; // Make sure Request, Response are here
 import { HealthCheckResponse } from "@workspace/api-zod";
 
 const router: IRouter = Router();
 
-// Added Request and Response types to the parameters
-router.get("/healthz", (_req: Request, res: Response) => {
+router.get("/healthz", (_req: Request, res: Response) => { // Make sure these are here
   const data = HealthCheckResponse.parse({ status: "ok" });
   res.json(data);
 });
